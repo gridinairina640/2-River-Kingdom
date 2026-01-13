@@ -1,0 +1,5 @@
+{
+  "name": "Empire of the Two Rivers",
+  "description": "AAA city-builder project with strict layered architecture, using React, R3F, and ECS.",
+  "requestFramePermissions": []
+}

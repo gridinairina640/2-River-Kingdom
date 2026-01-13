@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/types": ["./src/types"],
+      "@/types/*": ["./src/types/*"],
+      "@/core": ["./src/core"],
+      "@/core/*": ["./src/core/*"],
+      "@/view": ["./src/view"],
+      "@/view/*": ["./src/view/*"],
+      "@/ui": ["./src/ui"],
+      "@/ui/*": ["./src/ui/*"],
+      "@/infrastructure": ["./src/infrastructure"],
+      "@/infrastructure/*": ["./src/infrastructure/*"],
+      "@/data": ["./src/data"],
+      "@/data/*": ["./src/data/*"],
+      "@/utils": ["./src/utils"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/tests": ["./src/tests"],
+      "@/tests/*": ["./src/tests/*"]
+    }
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
